@@ -1,0 +1,20 @@
+document.body.style.backgroundColor = "blue"; 
+ document.body.style.color = "magenta";
+ document.body.innerHTML = "<h1> CAELANS AWESOME UNBLOCKED GAMES  AND </h1>"; 
+ document.body.style.fontFamily = "Comic Sans MS";
+  document.body.style.fontSize = "28px";
+   document.body.innerHTML += "<h2>PROXY 4 SCHOOL  </h2>";
+   document.body.style.textAlign = "center";
+     let h2 = document.querySelector("h2");
+     h2.style.fontSize = "55px"; 
+       h2.style.textAlign = "center";       
+document.body.innerHTML += "<button> enter the gaming zone </button>";
+    let button = document.querySelector("button"); 
+     button.style.fontSize = "30px";
+      button.style.backgroundColor = "black";
+       button.style.color = "blue";
+         button.style.textAlign = "center";
+let btnclick=document.querySelector("button");
+btnclick.addEventListener("click",() => {
+window.location.href = "index2.html";
+})
